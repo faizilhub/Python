@@ -1,0 +1,21 @@
+The first line of the code imports the random module, which allows us to generate a random number.
+
+The second line generates a random integer between 1 and 20 using the randint() function from the random module. This number will be the number that the player needs to guess.
+
+The third line initializes a variable named guesses to 0. This variable will keep track of the number of guesses the player has made.
+
+The fourth line prints a message to the console telling the player that the computer is thinking of a number between 1 and 20.
+
+The while loop is the main game loop. It will continue to run until the player has guessed the correct number or has used up all 6 of their guesses.
+
+Inside the while loop, the program prompts the player to make a guess using the print() function.
+
+The input() function takes the player's input and assigns it to the guess variable.
+
+The guess variable is then converted from a string to an integer using the int() function.
+
+The guesses variable is incremented by 1 using the += operator.
+
+The if statements check if the player's guess is too low, too high, or correct. If the guess is too low, the program prints a message to the console telling the player to guess higher. If the guess is too high, the program prints a message telling the player to guess lower. If the guess is correct, the program breaks out of the while loop.
+
+If the player guesses the correct number, the program prints a message congratulating the player and telling them how many guesses they took. If the player does not guess the correct number, the program prints a message telling the player what the correct number was.
